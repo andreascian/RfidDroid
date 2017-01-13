@@ -82,37 +82,6 @@ public class DataHandlerActivity extends AppCompatActivity {
             }
         });
 
-        /*back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                DataHandlerActivity.this.finish();
-                //startActivity(new Intent(DataHandlerActivity.this,InputRFIDActivity.class));
-            }
-        });*/
-
-        /*save.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                //saveToDB(worker);
-                back.setEnabled(false);
-                entry.setEnabled(false);
-                exit.setEnabled(false);
-
-                Snackbar bar = Snackbar.make(findViewById(R.id.data_handler),getString(R.string.saved),Snackbar.LENGTH_SHORT);
-                bar.show();
-
-                new CountDownTimer(2000,1000){
-
-                    @Override
-                    public void onTick(long millisUntilFinished) {}
-
-                    @Override
-                    public void onFinish() {
-                        back.callOnClick();
-                    }
-                }.start();
-            }
-        });*/
     }
 
     @Override
@@ -148,13 +117,11 @@ public class DataHandlerActivity extends AppCompatActivity {
 
     private void initViews(){
         snackView = findViewById(R.id.data_handler);
-        back = (Button) findViewById(R.id.button_back);
         entry = (Button) findViewById(R.id.button_entry);
         exit = (Button) findViewById(R.id.button_exit);
         entry_date = (TextView) findViewById(R.id.last_entry) ;
         exit_date = (TextView) findViewById(R.id.last_exit);
         welcome = (TextView) findViewById(R.id.welcome);
-        save = (Button) findViewById(R.id.button_save);
     }
 
     private void saveToDB(Worker worker){

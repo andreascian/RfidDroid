@@ -64,6 +64,7 @@
             android:backgroundTint="@color/colorPrimary"
             android:text="@string/exit" />
 
+
     </LinearLayout>
 
 <!--
