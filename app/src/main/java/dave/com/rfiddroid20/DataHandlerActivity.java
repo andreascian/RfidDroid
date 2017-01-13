@@ -82,15 +82,15 @@ public class DataHandlerActivity extends AppCompatActivity {
             }
         });
 
-        back.setOnClickListener(new View.OnClickListener() {
+        /*back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 DataHandlerActivity.this.finish();
                 //startActivity(new Intent(DataHandlerActivity.this,InputRFIDActivity.class));
             }
-        });
+        });*/
 
-        save.setOnClickListener(new View.OnClickListener() {
+        /*save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //saveToDB(worker);
@@ -112,7 +112,7 @@ public class DataHandlerActivity extends AppCompatActivity {
                     }
                 }.start();
             }
-        });
+        });*/
     }
 
     @Override
