@@ -132,7 +132,7 @@ public class DataHandlerActivity extends AppCompatActivity {
             setExitDate(worker.getExitDate());
         }else{
             //Mai uscito oggi
-            exit_date.setText(getString(R.string.lastEntry) + "-");
+            exit_date.setText(getString(R.string.lastExit) + "-");
         }
     }
 
