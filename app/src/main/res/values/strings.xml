@@ -3,7 +3,7 @@
 
     <string name="scan">Scan the ID card on the sensor</string>
     <string name="exit">Exit</string>
-    <string name="entry">Entry</string>
+    <string name="entry">Enter</string>
     <string name="welcome">Welcome </string>
     <string name="lastEntry">Your last entry: </string>
     <string name="lastExit">Your last exit: </string>
