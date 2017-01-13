@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">RFIDdroid2.0</string>
+
+    <string name="scan">Scan the card on the sensor</string>
+    <string name="exit">Exit</string>
+    <string name="entry">Entry</string>
+    <string name="welcome">Welcome </string>
+    <string name="lastEntry">Your last entry: </string>
+    <string name="lastExit">Your last exit: </string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="longPressToSave">Long press to save</string>
+    <string name="saved">Saved correctly</string>
+    <string name="noID">ID non trovato!</string>
+    <string name="alreadyEntered">Entry already registered</string>
+    <string name="alreadyExited">Exit already registered</string>
+    <string name="neverEntered">You have to enter before you exit!</string>
+
+
+</resources>

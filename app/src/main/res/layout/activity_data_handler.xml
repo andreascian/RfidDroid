@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/data_handler"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/welcome"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/last_entry"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastEntry"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/last_exit"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lastExit"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="0.6"
+        android:padding="30dp">
+
+        <Button
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/entry"
+            android:textSize="16sp"
+            android:id="@+id/button_entry"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"/>
+
+        <Button
+            android:text="@string/exit"
+            android:textSize="16sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_exit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <Button
+            android:backgroundTint="@color/red"
+            android:text="@string/back"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_back"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+        <Button
+            android:backgroundTint="@color/colorAccent"
+            android:text="@string/save"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button_save"
+            android:layout_weight="1"
+            style="@style/Widget.AppCompat.Button.Colored" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+

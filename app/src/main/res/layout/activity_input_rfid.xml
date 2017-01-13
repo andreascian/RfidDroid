@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dave.com.rfiddroid20.InputRFIDActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <ImageView
+        android:contentDescription="DAVE Embedded Systems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageView"
+        android:padding="70sp"
+        android:soundEffectsEnabled="true"
+        android:src="@drawable/davelogo" />
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1">
+
+    <AutoCompleteTextView
+        android:id="@+id/focus"
+        android:layout_width="1dp"
+        android:layout_height="1dp">
+        <requestFocus/>
+    </AutoCompleteTextView>
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textAlignment="center"
+        android:text="@string/scan"
+        android:id="@+id/textView"/>
+
+</LinearLayout>
+</LinearLayout>
