@@ -7,8 +7,6 @@
     <string name="welcome">Welcome </string>
     <string name="lastEntry">Your last entry: </string>
     <string name="lastExit">Your last exit: </string>
-    <string name="back">Back</string>
-    <string name="save">Save</string>
     <string name="longPressToSave">Long press to save</string>
     <string name="saved">Saved correctly</string>
     <string name="noID">ID non trovato!</string>
